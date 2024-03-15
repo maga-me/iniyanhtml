@@ -1,0 +1,90 @@
+{
+    "id": 1,
+    "number": "12121",
+    "startTime": "2024-03-03T11:54:41",
+    "phone": 79022339565,
+    "amount": 999,
+    "notes": "test desc",
+    "platform": "site",
+    "address": "Moskva",
+    "status": {
+        "id": 1,
+        "name": "Новый"
+    },
+    "paymentType": {
+        "id": 4,
+        "name": "Терминал"
+    },
+    "user": {
+        "id": 40282,
+        "fullName": "Евгений",
+        "phone": 79603098486
+    },
+    "partnerPoint": {
+        "id": 44,
+        "name": "Шумерля"
+    },
+    "orderTag": {
+        "id": 8,
+        "name": "Самовывоз"
+    },
+    "details": [
+        {
+            "id": 178988,
+            "price": 459.00,
+            "quantity": 1.0,
+            "product": {
+                "id": 140,
+                "name": "Пепперони 33 см"
+            }
+        },
+        {
+            "id": 178798,
+            "price": 639.00,
+            "quantity": 1.0,
+            "product": {
+                "id": 151,
+                "name": "Курочка Барбекю 40 см"
+            }
+        }
+    ],
+    "operations": {
+        "components": [
+            {
+                "id": 1,
+                "type": "+/-",
+                "quantiy": 12.2,
+                "priceInKg": 20,
+                "totalPrice": 244,
+                "component": {
+                    "id": 1,
+                    "name": "Курица"
+                },
+                "unit": {
+                    "id": 1,
+                    "name": "kg"
+                },
+                "warehouse": {
+                    "id": 1,
+                    "name": "Бердск"
+                },
+                "statusUpdatedAt": "2024-03-03T11:54:41",
+                "betweenTime": "00:00:07",
+                "orderStatus": {
+                    "id": 1,
+                    "name": "Готовится"
+                },
+                "baseProduct": {
+                    "id": 1,
+                    "name": "Сет Филадельфия"
+                }
+            }
+        ],
+        "rawMaterials": [
+            {}
+        ],
+        "products": [
+            {}
+        ]
+    }
+}
